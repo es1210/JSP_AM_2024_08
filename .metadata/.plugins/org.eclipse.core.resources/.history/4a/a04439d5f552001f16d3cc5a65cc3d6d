@@ -15,29 +15,25 @@ public class PrintDanServlet extends HttpServlet {
 
 		response.setContentType("text/html;charset=UTF-8");
 
-		// URL 파라미터에서 dan, limit, color 값을 가져옵니다.
+		// URL 파라미터에서 dan 값을 가져옵니다.
 		String danParam = request.getParameter("dan");
 		String danlimit = request.getParameter("limit");
-		String color = request.getParameter("color");
 
-		// dan, limit 기본값 설정
-		if (danParam == null) {
+		if(danParam == null) {
 			danParam = "1";
 		}
-		if (danlimit == null) {
+		
+		if(danlimit == null) {
 			danlimit = "1";
 		}
-		if (color == null) {
-			color = "black"; // 기본 색상을 검정색으로 설정
-		}
-
+		
 		int dan = Integer.parseInt(danParam);
 		int limit = Integer.parseInt(danlimit);
 
-		response.getWriter().append(String.format("<span style='color:%s;'>==%d단==<br></span>", color, dan));
+		response.getWriter().append(String.format("==%d단==<br>", dan));
 
 		for (int i = 1; i <= limit; i++) {
-			response.getWriter().append(String.format("<span style='color:%s;'>%d * %d = %d<br></span>", color, dan, i, dan * i));
+			response.getWriter().append(String.format("%d * %d = %d<br>", dan, i, dan * i));
 		}
 	}
 }
