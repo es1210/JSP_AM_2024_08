@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+C:\work.kes\sts-4.24.0.RELEASE-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2870323711.index
+\JSP_AM_2024_08\src\main\java
