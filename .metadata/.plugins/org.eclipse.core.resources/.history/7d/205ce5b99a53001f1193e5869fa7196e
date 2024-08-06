@@ -34,7 +34,6 @@ public class ArticleListServlet extends HttpServlet {
 
 		String user = "root";
 		String password = "";
-		
 
 		Connection conn = null;
 
@@ -44,7 +43,7 @@ public class ArticleListServlet extends HttpServlet {
 
 			DBUtil dbUtil = new DBUtil(request, response);
 
-			String sql = "SELECT * FROM article ORDER BY id DESC";
+			String sql = "SELECT * FROM article";
 
 			List<Map<String, Object>> articleRows = dbUtil.selectRows(conn, sql);
 

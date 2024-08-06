@@ -18,7 +18,6 @@ INDEX VERSION 1.134+C:\work.kes\sts-4.24.0.RELEASE-workspace\.metadata\.plugins\
 2355488419.index
 3678647354.index
 1598561762.index
-828764808.index
 1197143943.index
 1865797976.index
 785993988.index
