@@ -1,0 +1,5 @@
+127.0.0.1 - - [06/Aug/2024:09:29:53 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [06/Aug/2024:09:29:54 +0900] "GET /JSP_AM_2024_08/jsp/home/printDan.jsp HTTP/1.1" 500 2624
+0:0:0:0:0:0:0:1 - - [06/Aug/2024:09:29:54 +0900] "GET /favicon.ico HTTP/1.1" 404 819
+127.0.0.1 - - [06/Aug/2024:10:14:49 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [06/Aug/2024:10:14:49 +0900] "GET /JSP_AM_2024_08/servlet/com.KoreaIT.java.jsp.AM.ArticleListServlet HTTP/1.1" 404 881

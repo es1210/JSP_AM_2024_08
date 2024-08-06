@@ -1,8 +1,7 @@
 INDEX VERSION 1.4+C:\work.kes\sts-4.24.0.RELEASE-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3321473145.index
-1586453371.index
-1890910934.index
 497196953.index
+1586453371.index
 1888170564.index
-2870323711.index
 828764808.index
+1890910934.index
+3321473145.index
